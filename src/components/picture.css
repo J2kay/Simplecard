@@ -1,0 +1,46 @@
+.movie {
+  font-size: 32px;
+}
+
+p {
+  font-size: 14px;
+  width: 450px;
+  height: 100px;
+  text-align: left;
+  text-justify: inherit;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.title {
+  font-size: 24px;
+  height: 30px;
+
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+  column-gap: 5px;
+  height: 200px;
+  width: 450px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.image {
+  margin-right: 100px;
+}
+.simple {
+  display: flex;
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 250px;
+  background: #b8c5c9;
+}
+img {
+  float: left;
+  margin: 8px;
+  border-radius: 8px;
+}
